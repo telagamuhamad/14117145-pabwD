@@ -1,0 +1,6 @@
+Soal
+1. saya merubah link menuju (if.itera.ac.id) kemudian tujuan link akan berubah. terjadi error yaitu seluruh konten di dalam web 
+
+2. web otomatis akan memubuka google.com
+
+3. thead merupakan heading dari tabel, tbody isi dari tabel, tr membuat baris, th  menunjukkan cell induk dan ditandai dengan tulisan cetak tebal, td menunjukkan sebuah cell 
