@@ -1,0 +1,39 @@
+<HTML>
+<HEAD>
+<title>Buku Tamu</title>
+</HEAD>
+<BODY>
+<h1>TAMBAH DATA</h1>
+<form action="insertdata.php" method="POST" enctype="multipart/form-data">
+<strong>NRP</strong>   : <input type="text" name="NRP" size="35" >
+<br>
+<strong>Nama</strong> : <input type="text" name="Nama" size="35"> 
+<br>
+<strong>Foto</strong> : <input type="file" name="photo"> 
+<br>
+<label><strong>Jurusan </strong>:</label>
+            <select name="ID_jur">
+            	<option value="">--Pilih Jurusan--</option>
+                <option value="1">Telekomunikasi</option>
+                <option value="2">Elka</option>
+                <option value="3">IT</option>
+                <option value="4">Elin</option>
+            </select>
+ <br><br>
+<input type="submit" value="Tambah">
+</form>
+<h3>=================================</h3>
+<h3>SEARCH DATA</h3>
+<form action="search.php" method="POST" enctype="multipart/form-data">
+	<strong>Nama :</strong> <input type="text" name="cari" size="35" maxlength="30">
+	<button type="submit" name="search">Cari Data</button>
+</form>
+<h3>=================================</h3>
+<h3>HAPUS DATA</h3>
+<form action="hapus.php" method="POST" enctype="multipart/form-data">
+	<strong>NRP :</strong> <input type="text" name="hapus" size="35" maxlength="30">
+	<button type="submit" name="delet">Hapus Data</button>
+</form>
+
+</BODY>
+</HTML>
